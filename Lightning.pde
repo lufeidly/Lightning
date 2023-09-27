@@ -7,7 +7,7 @@ double endY = 250;
 void setup()
 {
   size(300,300);
-  strokeWeight(2);
+  strokeWeight(3);
   background(255,255,255);
 }
 void draw()
@@ -36,6 +36,5 @@ void mousePressed()
 startX = startX + (Math.random());
 startY = startY + (Math.random());
 endX = endX + (Math.random()) + 5;
-redraw();
   }
 }
